@@ -19,7 +19,7 @@ export default function About() {
           <RevealWrapper delay={0.2}>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 md:p-12 shadow-lg">
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                I'm a passionate 3rd year Computer Science student at the University of the Witwatersrand.
+                I&apos;m a passionate 3rd year Computer Science student at the University of the Witwatersrand.
                 I have a passion for software development and web development. I have worked on a number of projects,
                 some of which are listed in the projects section.
               </p>
@@ -27,15 +27,15 @@ export default function About() {
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
                 My academic focus is based around <strong className="text-blue-600 dark:text-blue-400">Computer Graphics and Visualisation</strong> and 
                 <strong className="text-blue-600 dark:text-blue-400"> Machine Learning</strong>, with hands-on experience in 
-                Python and Java. I'm particularly interested in building 
+                Python and Java. I&apos;m particularly interested in building 
                 interactive and visually appealing applications.
               </p>
               
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-                Beyond computer graphics and machine learning, I'm deeply interested in <strong className="text-blue-600 dark:text-blue-400">full-stack web development</strong>, 
+                Beyond computer graphics and machine learning, I&apos;m deeply interested in <strong className="text-blue-600 dark:text-blue-400">full-stack web development</strong>, 
                 where I combine modern frontend technologies with robust backend systems. I enjoy building 
                 end-to-end solutions that are both performant and user-friendly, always striving to learn 
-                new technologies and best practices in the rapidly evolving tech landscape. With experience in React, Next.js, Node.js, Python, Java, and more, I'm well-equipped to build robust and scalable applications. I make use of external APIs to build applications that are both functional and user-friendly.
+                new technologies and best practices in the rapidly evolving tech landscape. With experience in React, Next.js, Node.js, Python, Java, and more, I&apos;m well-equipped to build robust and scalable applications. I make use of external APIs to build applications that are both functional and user-friendly.
               </p>
             </div>
           </RevealWrapper>

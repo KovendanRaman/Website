@@ -130,7 +130,7 @@ export default function Hobbies() {
               </h3>
               <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
                 I believe that diverse interests and hobbies contribute to personal growth and creativity. 
-                Whether it's exploring new technologies, capturing moments through photography, or discovering 
+                Whether it&apos;s exploring new technologies, capturing moments through photography, or discovering 
                 new places through travel, each experience adds a unique perspective to my work and life. 
                 These activities help me stay curious, motivated, and well-rounded as both a developer and an individual.
               </p>

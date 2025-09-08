@@ -50,8 +50,8 @@ export default function Contact() {
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              I'm always interested in new opportunities and collaborations. 
-              Feel free to reach out if you'd like to connect!
+              I&apos;m always interested in new opportunities and collaborations. 
+              Feel free to reach out if you&apos;d like to connect!
             </p>
           </div>
         </RevealWrapper>
@@ -111,11 +111,11 @@ export default function Contact() {
               <RevealWrapper delay={0.4}>
                 <div className="text-center mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
                   <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-                    Let's Work Together
+                    Let&apos;s Work Together
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
                     Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                    I'd love to hear from you. I'm particularly interested in opportunities involving 
+                    I&apos;d love to hear from you. I&apos;m particularly interested in opportunities involving 
                     parallel computing, AI, and full-stack development.
                   </p>
                   <motion.a
