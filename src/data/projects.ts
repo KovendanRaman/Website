@@ -13,9 +13,9 @@ export const projects: Project[] = [
     id: 'raceiq-f1-tracker',
     title: 'RaceIQ F1 Tracker',
     description: 'A comprehensive Formula 1 race tracking application that provides real-time race data, driver statistics, and race predictions using machine learning algorithms.',
-    tags: ['React', 'Node.js', 'Python', 'API Integration'],
+    tags: ['React', 'Node.js', 'JavaScript', 'API Integration'],
     githubUrl: 'https://github.com/Race1Q/RaceIQ',
-    demoUrl: 'https://purple-sand-0300d7203.2.azurestaticapps.net/',
+    demoUrl: 'https://race-iq.vercel.app/',
   },
   {
     id: 'indiecart-marketplace',
