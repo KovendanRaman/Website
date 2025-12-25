@@ -56,9 +56,9 @@ export default function Resume() {
                     Education
                   </h4>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                    <li>• BSc Computer Science (3rd Year)</li>
+                    <li>• BSc Computer Science</li>
                     <li>• University of the Witwatersrand</li>
-                    <li>• Focus: Parallel Computing & AI</li>
+                    <li>• Focus: Web Development & Machine Learning</li>
                   </ul>
                 </div>
 

@@ -11,11 +11,11 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'raceiq-f1-tracker',
-    title: 'RaceIQ F1 Tracker',
+    title: 'RaceIQ F1 Stat Tracker',
     description: 'A comprehensive Formula 1 race tracking application that provides real-time race data, driver statistics, and race predictions using machine learning algorithms.',
     tags: ['React', 'Node.js', 'Python', 'API Integration'],
     githubUrl: 'https://github.com/Race1Q/RaceIQ',
-    demoUrl: 'https://purple-sand-0300d7203.2.azurestaticapps.net/',
+    demoUrl: 'https://race-iq.vercel.app/',
   },
   {
     id: 'indiecart-marketplace',
@@ -32,5 +32,12 @@ export const projects: Project[] = [
     tags: ['React', 'TypeScript', 'Vite', 'shadcn-ui', 'Tailwind CSS', 'Hackathon'],
     githubUrl: 'https://github.com/Career-Canvas/Career-Canvas',
     demoUrl: 'https://red-pebble-09b4a7103.1.azurestaticapps.net/',
+  },
+  {id: 'Aperture Protocol', 
+    title: 'The Aperture Protocol',
+    description: 'A Three.JS escape room, puzzle game. Game of The Year 2025 at Wits',
+    tags: ['Three.JS', 'React', 'Game Development', 'WebGL'],
+    githubUrl: 'https://github.com/OnlyGame5/OnlyGames',
+    demoUrl: 'https://lamp.ms.wits.ac.za/home/sonlygames/index.html',
   },
 ];
