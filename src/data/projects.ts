@@ -40,4 +40,12 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/OnlyGame5/OnlyGames',
     demoUrl: 'https://lamp.ms.wits.ac.za/home/sonlygames/index.html',
   },
+  {
+    id: 'qr-code-generator',
+    title: 'QR Code Generator',
+    description: 'Create custom QR codes with custom colors, patterns, and text. Log in to save and access your QR codes anytime.',
+    tags: ['Python', 'Flask', 'HTML', 'CSS'],
+    githubUrl: 'https://github.com/KovendanRaman/qr-generator',
+    demoUrl: 'https://qr-generator-vubf.onrender.com/',
+  },
 ];

@@ -19,7 +19,7 @@ export default function About() {
           <RevealWrapper delay={0.2}>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8 md:p-12 shadow-lg">
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                I&apos;m a passionate 3rd year Computer Science student at the University of the Witwatersrand.
+                I&apos;m a passionate Computer Science graduate from the University of the Witwatersrand. Currently, studying for my Honours in Computer Science
                 I have a passion for software development and web development. I have worked on a number of projects,
                 some of which are listed in the projects section.
               </p>

@@ -40,7 +40,7 @@ export default function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            Computer Science @ Wits • Parallel Computing & AI
+            Computer Science @ Wits • Software Development & Machine Learning
           </motion.p>
 
           {/* Description */}
@@ -50,7 +50,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto"
           >
-            Passionate about building innovative solutions through parallel computing, 
+            Passionate about building innovative solutions through Machine Learning, 
             artificial intelligence, and full-stack development.
           </motion.p>
 
