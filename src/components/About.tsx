@@ -44,9 +44,9 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
               <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
                 <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">3rd</span>
+                  <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">📚</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Year Student</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Honours Student</h3>
                 <p className="text-gray-600 dark:text-gray-400">Computer Science at Wits University</p>
               </div>
 
@@ -58,7 +58,13 @@ export default function About() {
                 <p className="text-gray-600 dark:text-gray-400">Software Development & FinTech</p>
               </div>
 
-              
+              <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                <div className="w-16 h-16 bg-amber-100 dark:bg-amber-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-amber-600 dark:text-amber-400">🎓</span>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">BSc Computer Science</h3>
+                <p className="text-gray-600 dark:text-gray-400">Wits University</p>
+              </div>
             </div>
           </RevealWrapper>
         </div>

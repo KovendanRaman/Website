@@ -43,7 +43,7 @@ export const projects: Project[] = [
   {
     id: 'qr-code-generator',
     title: 'QR Code Generator',
-    description: 'Create custom QR codes with custom colors, patterns, and text. Log in to save and access your QR codes anytime.',
+    description: 'Create custom QR codes with custom patterns, and text. Log in to save and access your QR codes anytime.',
     tags: ['Python', 'Flask', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/KovendanRaman/qr-generator',
     demoUrl: 'https://qr-generator-vubf.onrender.com/',
