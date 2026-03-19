@@ -48,4 +48,13 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/KovendanRaman/qr-generator',
     demoUrl: 'https://qr-generator-vubf.onrender.com/',
   },
+  {
+    id: 'the-ledger',
+    title: 'The Ledger',
+    description:
+      'A personal expense tracker and invoice generator. Log spending, mark billable items, and share a live invoice statement link with parents — no account needed on their end.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn-ui', 'PostgreSQL', 'Drizzle', 'Auth.js', 'Recharts'],
+    githubUrl: 'https://github.com/KovendanRaman/TheLedger',
+    demoUrl: 'https://the-ledger-liart.vercel.app/',
+  },
 ];
