@@ -5,20 +5,28 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Kovendan Jason Raman - Computer Science Student & Developer',
-  description: 'Computer Science student at Wits University with expertise in parallel computing, AI, and full-stack development. Currently interning at Sanlam.',
+  title: 'Kovendan Jason Raman | Software Engineer & CS Honours',
+  description:
+    'Portfolio of Kovendan Jason Raman, a Computer Science Honours student at Wits University specialising in full-stack development, AI/ML, and modern web applications.',
   keywords: [
     'Kovendan Jason Raman',
-    'Computer Science',
+    'Software Engineer',
+    'Computer Science Honours',
     'Wits University',
-    'Parallel Computing',
+    'Full-Stack Development',
+    'React',
+    'Next.js',
+    'TypeScript',
+    'Python',
     'Artificial Intelligence',
+    'Machine Learning',
+    'Parallel Computing',
     'OpenMP',
     'MPI',
-    'Full-stack Development',
     'Sanlam',
-    'Software Developer',
-    'Portfolio'
+    'Portfolio',
+    'Graduate Developer',
+    'Web Development',
   ],
   authors: [{ name: 'Kovendan Jason Raman' }],
   creator: 'Kovendan Jason Raman',
@@ -33,8 +41,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Kovendan Jason Raman - Computer Science Student & Developer',
-    description: 'Computer Science student at Wits University with expertise in parallel computing, AI, and full-stack development.',
+    title: 'Kovendan Jason Raman | Software Engineer & CS Honours',
+    description:
+      'Portfolio of Kovendan Jason Raman, a Computer Science Honours student at Wits University specialising in full-stack development, AI/ML, and modern web applications.',
     url: 'https://kovendan.vercel.app',
     siteName: 'Kovendan Jason Raman Portfolio',
     images: [
@@ -42,7 +51,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Kovendan Jason Raman - Computer Science Student & Developer',
+        alt: 'Kovendan Jason Raman | Software Engineer & CS Honours',
       },
     ],
     locale: 'en_US',
@@ -50,8 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kovendan Jason Raman - Computer Science Student & Developer',
-    description: 'Computer Science student at Wits University with expertise in parallel computing, AI, and full-stack development.',
+    title: 'Kovendan Jason Raman | Software Engineer & CS Honours',
+    description:
+      'Portfolio of Kovendan Jason Raman, a Computer Science Honours student at Wits University specialising in full-stack development, AI/ML, and modern web applications.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -66,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'NEhqMI18P14wC0nbd91S57DDLzOm0hdit9f8lJ-na_E',
   },
 }
 
