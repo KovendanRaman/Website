@@ -50,27 +50,73 @@ export default function Resume() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm">
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-                    Education
-                  </h4>
-                  <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                    <li>• BSc Computer Science</li>
-                    <li>• University of the Witwatersrand</li>
-                    <li>• Focus: Web Development & Machine Learning</li>
-                  </ul>
-                </div>
+              <div className="grid grid-cols-1 gap-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* Education Section */}
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm h-fit">
+                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      🎓 Education
+                    </h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-medium text-gray-900 dark:text-white">BSc Computer Science Honours</h5>
+                        <p className="text-blue-600 dark:text-blue-400 text-sm">University of the Witwatersrand</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Focus: Web Development & Machine Learning</p>
+                      </div>
+                      <div className="pt-4 border-t border-gray-100 dark:border-gray-600">
+                        <h5 className="font-medium text-gray-900 dark:text-white">BSc Computer Science</h5>
+                        <p className="text-blue-600 dark:text-blue-400 text-sm">University of the Witwatersrand</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Focus: Web Development & Machine Learning</p>
+                      </div>
+                    </div>
+                  </div>
 
-                <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm">
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-                    Experience
-                  </h4>
-                  <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                    <li>• Software Development Intern</li>
-                    <li>• Sanlam</li>
-                    <li>• FinTech & Web Development</li>
-                  </ul>
+                  {/* Experience Section */}
+                  <div className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-sm">
+                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                      💼 Experience
+                    </h4>
+                    <div className="space-y-6">
+                      {/* Sanlam */}
+                      <div>
+                        <h5 className="font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                          💻 Software Development Intern
+                        </h5>
+                        <div className="text-green-600 dark:text-green-400 text-sm mb-2 font-medium">Sanlam Business Solutions</div>
+                        <ul className="list-disc list-outside ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400 mb-3">
+                          <li>Engineered scalable FinTech web applications, improving system efficiency and user experience for financial services.</li>
+                          <li>Collaborated with cross-functional teams to streamline internal operations and securely handle critical financial transactions.</li>
+                          <li>Optimized application performance and frontend architecture, ensuring robust data delivery and responsive interfaces.</li>
+                        </ul>
+                        <div className="flex flex-wrap gap-2 mt-3">
+                          {['React', 'Next.js', 'Node.js', 'PostgreSQL', 'TypeScript'].map(tech => (
+                            <span key={tech} className="px-2.5 py-1 text-xs font-medium bg-green-50 text-green-700 dark:bg-green-900/40 dark:text-green-300 rounded-md border border-green-100 dark:border-green-800">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Future Interns */}
+                      <div className="pt-5 border-t border-gray-100 dark:border-gray-600">
+                        <h5 className="font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                          📊 Data Science & Analytics Intern
+                        </h5>
+                        <div className="text-blue-600 dark:text-blue-400 text-sm mb-2 font-medium">Future Interns (ISO 9001 Certified) • April 2026</div>
+                        <ul className="list-disc list-outside ml-4 space-y-1 text-sm text-gray-600 dark:text-gray-400 mb-3">
+                          <li>Engineered Python-based stage logic for a 45,000+ lead dataset, identifying key conversion bottlenecks.</li>
+                          <li>Developed interactive Streamlit applications and utilized Power BI to visualize e-commerce trends and automate billing interventions.</li>
+                        </ul>
+                        <div className="flex flex-wrap gap-2 mt-3">
+                          {['Python', 'Power BI', 'Streamlit', 'DAX', 'Plotly', 'Pandas'].map(tech => (
+                            <span key={tech} className="px-2.5 py-1 text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 rounded-md border border-blue-100 dark:border-blue-800">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
